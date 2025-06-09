@@ -29,7 +29,7 @@ body {
     width: 320px;
 }
 
-.display {
+#display {
     width: 100%;
     height: 60px;
     margin: 0 0 12px 0;
@@ -97,10 +97,43 @@ body {
     color: #fff;
 }
 
-.backsapce:hover {
+.backspace:hover {
     background-color: #42a5f5;
 }
 
+@media (max-width: 600px) {
+    .container {
+        width: 50%;
+        padding: 16px;
+    }
+
+    #display {
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (maxwidth: 480px) {
+    .container {
+        width: 100%;
+        padding: 16px;
+    }
+
+    #display {
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+} 
 
 
 
